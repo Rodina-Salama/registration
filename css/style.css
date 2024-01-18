@@ -1,0 +1,90 @@
+body{
+    /* background: linear-gradient( to right, rgb(116, 18, 116),rgb(61, 61, 156),rgb(148, 16, 148)); */
+ background-image: url(../images/wood-table-blur.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* position: relative; */
+ height: 100vh;
+
+}
+
+.form-box{
+background-color: rgba(30, 30, 30, 0.538);
+}
+.start-35{
+    left:35%;
+}
+.top-40{
+    top:40%;
+}
+.welcomepage{
+    font-size: 50px;
+}
+.signbtn button {
+    width: 60%;
+    background: linear-gradient( to right, rgb(241, 97, 7),rgb(244, 167, 25),rgb(255, 106, 0));
+ border-radius: 20px;
+ outline: 0;
+ border: none;
+ box-shadow: none;
+ cursor: pointer;
+ padding: 9px 22px;
+ color: #fff;
+ text-align: center;
+ 
+ 
+}
+
+.signbtn button:hover{
+     border:1px solid grey;
+     background: linear-gradient( to right, rgb(241, 23, 7),rgb(244, 167, 25),rgb(255, 34, 0));
+     /* background: linear-gradient( to right, rgb(61, 61, 156),rgb(148, 16, 148),rgb(6, 178, 241)); */
+
+ }
+
+
+
+ 
+ .form-box .input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    border-bottom:2px solid rgba(237, 227, 208, 0.796);
+ }
+ .form-box .input-box i{
+    position: absolute;
+    left: -18px;
+    bottom: 40%;
+    color: rgb(186, 182, 182);
+  
+ }
+ .form-box .input-box input{
+    width: 100%;
+    /* height: 40px; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+ }
+ .form-box .input-box input::placeholder{
+    color: rgb(186, 182, 182);
+  padding-left: 15px;
+ }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+#result{
+    color: red;
+    font-weight:600 ;
+    
+}
+
+
+
+
+
+
